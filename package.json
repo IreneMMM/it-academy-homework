@@ -1,0 +1,22 @@
+{
+  "name": "lesson4",
+  "version": "1.0.0",
+  "description": "lesson4 hometask",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IreneMMM/it-academy-homework.git"
+  },
+  "author": "Irina Menshova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IreneMMM/it-academy-homework/issues"
+  },
+  "homepage": "https://github.com/IreneMMM/it-academy-homework#readme",
+  "dependencies": {
+    "fs-extra": "^11.1.0"
+  }
+}
