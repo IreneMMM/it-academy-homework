@@ -1,0 +1,5 @@
+/node_modules
+/mochawesome-report
+/.nyc_output
+.mocharc.js
+package-lock.json
