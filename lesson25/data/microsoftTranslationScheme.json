@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Example of a successful translate request, including all optional parameters.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "detectedLanguage": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string"
+          },
+          "score": {
+            "type": "integer"
+          }
+        }
+      },
+      "translations": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "alignment": {
+              "type": "object",
+              "properties": {
+                "proj": {
+                  "type": "string"
+                }
+              }
+            },
+            "sentLen": {
+              "type": "object",
+              "properties": {
+                "srcSentLen": {
+                  "type": "array",
+                  "items": {
+                    "properties": {
+                      "integer": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                },
+                "transSentLen": {
+                  "type": "array",
+                  "items": {
+                    "properties": {
+                      "integer": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "text": {
+              "type": "string"
+            },
+            "to": {
+              "type": "string"
+            },
+            "transliteration": {
+              "type": "object",
+              "properties": {
+                "script": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
